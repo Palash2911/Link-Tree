@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palash Rambhia | Links</title>
+    <style>
+      /* Google Font */
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: #121212;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+      }
+
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        margin-top: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #ffffff;
+        margin-bottom: 18px;
+      }
+
+      h1 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        margin-top: 11px;
+        margin-bottom: 10px;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+      }
+
+      .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px;
+        border-radius: 8px;
+        transition: 0.3s;
+        border: 2px solid transparent;
+      }
+
+      .link:hover {
+        background: #272727;
+        border-color: #ffffff;
+        transform: scale(1.05);
+      }
+
+      .link img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+
+      /* Responsive */
+      @media (max-width: 400px) {
+        .container {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Profile Image -->
+      <img src="Palash.jpg" alt="Palash Rambhia" class="profile-img" />
+
+      <!-- Name & Bio -->
+      <h1>Palash Rambhia</h1>
+      <h3>
+        Master's Student @ Monash Univeristy | App Dev | Web Dev | Cloud
+        Enthusiast
+      </h3>
+      <br />
+
+      <!-- Links -->
+      <div class="links">
+        <a
+          href="https://www.linkedin.com/in/palashrambhia/"
+          class="link"
+          target="_blank"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+            alt="LinkedIn"
+          />
+          LinkedIn
+        </a>
+        <a href="https://x.com/Palash_Rambhia" class="link" target="_blank">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+            alt="Twitter"
+          />
+          Twitter
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1TcUG503_CnpEV4uLgmwr3JbfsXOTsgM9/view?usp=sharing"
+          class="link"
+          target="_blank"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/603/603197.png"
+            alt="Resume"
+          />
+          Resume
+        </a>
+        <a
+          href="https://palashrambhia.vercel.app/"
+          class="link"
+          target="_blank"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/609/609803.png"
+            alt="Portfolio"
+          />
+          Portfolio
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
